@@ -211,5 +211,5 @@
 
 })(jQuery);
 function changeColor() {
-	addevenListener('click' content.style.color = 'red');
+	addevenListener('click' 'green');
 }
