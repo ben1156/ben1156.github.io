@@ -210,6 +210,3 @@
 		}
 
 })(jQuery);
-function changeColor() {
-	addevenListener('click' 'green');
-}
