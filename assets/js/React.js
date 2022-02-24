@@ -6,5 +6,9 @@ class email22 extends React.Component {
                 apppVersion'
         }
     }
-
+    render() {
+        return (
+            <h9>Hello Friend Welcome back.</h9
+            <button>Download</button>)
+    }
 }
