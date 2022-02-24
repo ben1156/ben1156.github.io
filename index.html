@@ -159,7 +159,7 @@
 								<div class="email22">
 
 									<a id="benemail" href="mailto:burlesonbenjamin@gmail.com" class="icon brands fa-google"<h1>email me here</h1></a>
-
+									<div id="like_button_container"></div>
 								</div>
 							</div>
 						</div>
@@ -185,16 +185,21 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script src="https://unpkg.com/react@17/umd/react.production.min.js"
-				></script>
-		<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"
-				></script>
+		<!--Download button fo resume?-->
+		<script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+		<script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
 		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-		
-		<script type="text/babel"src="React.js"></script>
+
+		<script type="text/babel" src="React.js"></script>
 		<script type="text/babel">
 			ReactDom.render(<email22 />, document.querySelector('.email me here'));
 		</script>
+		<!--Seperate react script forintro -->
+		<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+		<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+		<!-- Load our React component. -->
+		<script src="like_button.js"></script>
 
 	</body>
 </html>
